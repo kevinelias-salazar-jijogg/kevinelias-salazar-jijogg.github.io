@@ -1,0 +1,252 @@
+h1,h2,h3,h4,h5,h6,p,figure,ul,li {
+    color: black;
+    text-align: center;
+    margin: 0;  /* Margen */
+    padding: 0;
+}
+
+.container {
+    width: 920px;   /* Ancho */
+}
+
+.block-center {
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* bloque encabezado inicio */
+
+#encabezado {
+    height: 120px;  /* Alto */
+    display: flex;
+    justify-content: space-between;
+}
+
+#titulos h1 { font-size: 1.5em; }
+#titulos h2 { font-size: 1.2em; }
+#titulos h3 { font-size: 0.9em; }
+#titulos h4 { font-size: 0.8em; }
+
+/* bloque encabezado fin */
+/* bloque barra de navegacion inicio */
+
+#barra-navegacion {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/fondo_menu_negro.png');
+    background-position: center;
+    align-items: center;
+}
+
+#barra-navegacion>ul ul {
+    display: none;
+    position: absolute;
+}
+
+#barra-navegacion>ul>li {
+    display: inline-block;
+    position: relative;
+    background-color: lightgray;
+}
+
+#barra-navegacion>ul ul li {
+    display: block;
+    transition: 0.5s;
+}
+
+#barra-navegacion a: hover {
+    background-color:gray;
+}
+
+#barra-navegacion a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    display: flex;
+}
+
+#barra-navegacion>ul>li:hover > ul {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+#barra-navegacion>ul ul li:hover {
+    background-color: gray;
+}
+/* bloque barra de navegacion fin */
+
+#nota-principal {
+    border: 10px solid white;
+    box-shadow: 0 0 10px darkgray;
+    margin: 20px 0;
+}
+
+#notas-secundarias {
+    width: 700px;
+    min-height: 260px;
+}
+
+#notas-secundarias article {
+    display: flex;
+    background-image: url('../images/separador-nota-secundaria.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.imagen-nota-secundaria {
+    position: relative;
+}
+
+
+}
+
+.cuerpo-nota-secundaria {
+    padding: 0 15px;
+}
+
+.intro-nota-secundaria {
+    text-align: justify;
+    margin: 15px 0;
+    padding: 0 15px;
+}
+
+.titulo-nota-secundaria {
+    font-variant: small-caps;
+    line-height: 0.9em;
+    font-size: 1.8em;
+    margin: 15px 0;
+}
+
+.titulo-nota-secundaria a {
+    color: #b92025;
+    text-decoration: none;
+}
+
+.titulo-nota-secundaria a:hover {
+    color: #2a6496;
+    text-decoration: underline;
+}
+
+.sombra-imagen {
+    margin: 15px 0;
+    box-shadow: 0 0 5px darkgray;
+    border-radius: 15px; 
+}
+
+.ver-mas {
+    margin: 15px 0;
+    padding: 0 15px;
+    background-color: #b92025;
+    display: inline-block;
+}
+
+.ver-mas div {
+    border: 1px solid white;
+    padding: 2px;
+}
+
+.ver-mas p {
+    color: white;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+#anuncios {
+    width: 210px;
+    padding: 5px;
+    min-height: 290px;
+}
+
+#imagen-1-contenido > img {
+    margin: 5px 0;
+}
+
+#pie {
+    min-height: 150px;
+}
+
+#programas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#politicas {
+    border-bottom: 3px double lightgray;
+    border-top: 3px double lightgray;
+    padding: 5px;
+    text-align: center;
+}
+
+.separador-sems {
+    padding: 5px 0;
+    margin: 20px 0;
+    position: relative;
+    text-align: center;
+}
+
+.separador-sems a::before, .separador-sems a::after {
+    content: "";
+    border-top: 3px double lightgray;
+    width: 340px;
+    position: absolute;
+    top: 35px;
+}
+
+.separador-sems a::after {
+    right: 0;
+}
+
+.separador-sems a::before {
+    left: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.flexible {
+    display: flex;
+}
+
+.facebook, .twitter {
+    text-indent: -9999px;
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+}
+
+
+.facebook {
+    background: url('../images/facebook_twitter.png') 0 0;
+}
+
+article{
+    display: flex;
+}
+
+.twitter {
+    background: url('../images/facebook_twitter.png') -43px 0;
+}
+
+.facebook:hover {
+    background: url('../images/facebook_twitter.png') 0 -43px;
+}
+
+.twitter:hover {
+    background: url('../images/facebook_twitter.png') -43px -43px;
+}
+
+
+}
+
+#imagen-1-contenido {
+    
+}
