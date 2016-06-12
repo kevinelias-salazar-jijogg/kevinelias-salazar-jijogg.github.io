@@ -89,21 +89,8 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,li {
 #notas-secundarias {
     width: 700px;
     min-height: 260px;
+    /* background-image: url(../) */
 }
-
-#notas-secundarias article {
-    display: flex;
-    background-image: url('../images/separador-nota-secundaria.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-}
-
-.imagen-nota-secundaria {
-    position: relative;
-}
-
 
 }
 
@@ -140,24 +127,6 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,li {
     border-radius: 15px; 
 }
 
-.ver-mas {
-    margin: 15px 0;
-    padding: 0 15px;
-    background-color: #b92025;
-    display: inline-block;
-}
-
-.ver-mas div {
-    border: 1px solid white;
-    padding: 2px;
-}
-
-.ver-mas p {
-    color: white;
-    font-weight: bold;
-    padding: 0 20px;
-}
-
 #anuncios {
     width: 210px;
     padding: 5px;
@@ -165,7 +134,7 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,li {
 }
 
 #imagen-1-contenido > img {
-    margin: 5px 0;
+    margin: 5px 0;  
 }
 
 #pie {
