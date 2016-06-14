@@ -122,19 +122,79 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,li {
 }
 
 .sombra-imagen {
-    margin: 15px 0;
+    margin: 15px 15px;
     box-shadow: 0 0 5px darkgray;
     border-radius: 15px; 
 }
 
-#anuncios {
-    width: 210px;
-    padding: 5px;
-    min-height: 290px;
+#imagen-1-contenido > img {
+    margin: 10px 10px;  
 }
 
-#imagen-1-contenido > img {
-    margin: 10px 0;  
+.sombra-imagen-1-6 {
+margin: 15px 15px;
+box-shadow: 0 0 5px darkgray;
+border-radius: 15px; 
+}
+
+#imagen-contenido-1 > img {
+margin: 10px 10px;  
+}
+
+.sombra-imagen-2-6 {
+margin: 15px 15px;
+box-shadow: 0 0 5px darkgray;
+border-radius: 15px; 
+}
+
+#imagen-contenido-2 > img {
+margin: 10px 10px;  
+}
+
+.sombra-imagen-3-6 {
+margin: 15px 15px;
+box-shadow: 0 0 5px darkgray;
+border-radius: 15px; 
+}
+
+#imagen-contenido-3 > img {
+margin: 10px 10px;  
+}
+
+.sombra-imagen-4-6 {
+margin: 15px 15px;
+box-shadow: 0 0 5px darkgray;
+border-radius: 15px; 
+}
+
+#imagen-contenido-4 > img {
+margin: 10px 10px;  
+}
+
+.sombra-imagen-quiensoy {
+margin: 15px 15px;
+box-shadow: 0 0 5px darkgray;
+border-radius: 50%; 
+}
+
+#imagen-contenido-quiensoy > img {
+margin: 10px 10px;  
+}
+
+.sombra-imagen-quiensoy {
+margin: 15px 15px;
+box-shadow: 0 0 5px darkgray;
+border-radius: 15px; 
+}
+
+#imagen-contenido-tam-eje > img {
+margin: 10px 10px;  
+}
+
+#anuncios {
+    width: 210px;
+    padding: 10px;
+    min-height: 290px;
 }
 
 #pie {
